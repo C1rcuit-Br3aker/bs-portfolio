@@ -4238,3 +4238,10 @@ DEVICES STYLES
 .code-link:hover {
   color: #EA8825;
 }
+
+.gap {
+  padding-right: 0.5rem;
+}
+ .shadow {
+   text-shadow: 2px 2px 3px black;
+ }
