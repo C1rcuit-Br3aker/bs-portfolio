@@ -935,6 +935,7 @@ pre code {
 .col-xs-12,
 .col-sm-12,
 .col-md-12,
+.col-md-13,
 .col-lg-12 {
   position: relative;
   min-height: 1px;
@@ -1162,6 +1163,7 @@ pre code {
   .col-sm-8,
   .col-sm-9,
   .col-sm-10,
+  .col-sm-13,
   .col-sm-11 {
     float: left;
   }
@@ -1197,6 +1199,9 @@ pre code {
   }
   .col-sm-2 {
     width: 16.666666666666664%;
+  }
+  .col-sm-13 {
+    width: 20%;
   }
   .col-sm-1 {
     width: 8.333333333333332%;
