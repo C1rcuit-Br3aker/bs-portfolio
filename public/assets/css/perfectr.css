@@ -782,7 +782,7 @@ BUTTON STYLES
   text-transform: uppercase;
   border-radius: 4px;
   outline: none !important;
-  box-shadow: none !important;
+  box-shadow: none;
   border:none;
   background: #EA8825;
   font-weight: 600;
@@ -839,7 +839,12 @@ BUTTON STYLES
 }
 
 .btn-3d{
-  box-shadow: inset 0 -4px 0 rgba(0,0,0,0.2) !important;
+  box-shadow: inset 0 -4px 0 rgba(0,0,0,0.2);
+}
+
+.btn-3d:hover {
+  opacity: 1;
+  box-shadow: none;
 }
 
 .btn-subtext{
@@ -4245,3 +4250,7 @@ DEVICES STYLES
  .shadow {
    text-shadow: 2px 2px 3px black;
  }
+
+.mrg-l {
+  margin-left: 1rem;
+}
