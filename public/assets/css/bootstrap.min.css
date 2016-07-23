@@ -5810,8 +5810,13 @@ button.close {
   }
 }
 @media (max-width: 320px) {
-  .hex-item {
-    left: 20%;
+
+  .row {
+    margin-right: -8px;
+  }
+
+  .mrg-t {
+    margin-top: 200px;
   }
 }
 
@@ -5826,6 +5831,14 @@ button.close {
 	-ms-transform: rotate(120deg);
   -webkit-transform: rotate(120deg);
   overflow: hidden;
+}
+
+@media (max-width: 320px) {
+  .hexagon {
+    width: 150px;
+    height: 280px;
+  }
+
 }
 
 .hexagon-in1 {
