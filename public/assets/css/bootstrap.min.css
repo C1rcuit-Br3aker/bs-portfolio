@@ -5809,6 +5809,11 @@ button.close {
     left: 25%;
   }
 }
+@media (max-width: 320px) {
+  .hex-item {
+    left: 20%;
+  }
+}
 
 .hexagon {
   position: absolute;
